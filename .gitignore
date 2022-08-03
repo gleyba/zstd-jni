@@ -1,5 +1,4 @@
 target/
-build/
 project/target
 project/project
 project/plugins/project
@@ -18,3 +17,4 @@ gradlew*
 /CMakeFiles
 /CMakeCache.txt
 /cmake_install.cmake
+/bazel-*

@@ -42,7 +42,8 @@ public enum Native {
     }
 
     private static String resourceName() {
-        return "/" + osName() + "/" + osArch() + "/" + libname + "." + libExtension();
+        // return "/" + osName() + "/" + osArch() + "/" + libname + "." + libExtension();
+        return "/libzstd-jni.so";
     }
 
     private static boolean loaded = false;
